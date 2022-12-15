@@ -1,9 +1,16 @@
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
+import tkinter
+from tkinter import filedialog
 
-img = cv2.imread('image/cat1.jpg', 0)
+idir = 'images/upload'
+file_path = tkinter.filedialog.askopenfilename(initialdir=idir)
+
+img = cv2.imread(file_path, 0)
 edges = cv2.Canny(img, 100, 200)
+
+cv2.imwrite('images/result/canny-fillter/cat1.jpg', edges)
 
 plt.subplot(121), plt.imshow(img, cmap='gray')
 plt.title('Original Image'), plt.xticks([]), plt.yticks([])
