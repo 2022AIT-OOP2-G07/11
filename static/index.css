@@ -1,3 +1,24 @@
 body{
-    
+    margin: 0;
+}
+main {
+    text-align: center;
+}
+
+main h2{
+    font-size: 40px;
+}
+
+/* main input{
+    padding: 100px;
+} */
+
+main button{
+    /* left: 1000px; */
+    margin-top: 10px;
+    padding: 10px;
+    width: 250px;
+}
+main form p{
+    color: rgb(233, 10, 10);
 }
