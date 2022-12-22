@@ -7,7 +7,7 @@ cascade_file= "haarcascade_frontalface_alt.xml"
 cascade = cv2.CascadeClassifier(cascade_file)
  
 #(3)画像を読み込みグレイスケールに変換
-img = cv2.imread("./image/ari.jpg")
+img = cv2.imread("./images/upload/download.jpg")
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 #cv2.imwrite("grayscale.jpg", img_gray)
  
