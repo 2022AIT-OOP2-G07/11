@@ -2,11 +2,11 @@
 import cv2
 # グレースケール化
 # 画像読み込み
-img = cv2.imread('images/upload/Sample-image.jpeg')
+img = cv2.imread('./images/upload/download.jpg')
 # 読み込んだ画像グレースケール化
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # 画像保存
-cv2.imwrite('images/result/grayscale-fillter/Sample-image.jpeg', img_gray)
+cv2.imwrite('./images/result/canny-fillter/canny-fillter.jpg', img_gray)
 
 # # 二値化
 # img2 = cv2.imread('before_picture/Sample-image.jpeg',0)
