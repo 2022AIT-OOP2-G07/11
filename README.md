@@ -4,11 +4,11 @@
 
 ## Main function
 1. canny-fillter
-    アップロードされた画像をCannyフィルタによって輪郭抽出する
+    ：アップロードされた画像をCannyフィルタによって輪郭抽出する
 2. facerectangle-fillter
-    アップロードされた画像を顔検出して枠で加工する
+    ：アップロードされた画像を顔検出して枠で加工する
 3. grayscale-fillter
-   アップロードされた画像をグレースケール化する
+   ：アップロードされた画像をグレースケール化する
 
 ## Initial Setting
 
